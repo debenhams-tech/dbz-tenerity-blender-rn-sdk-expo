@@ -6,6 +6,8 @@ export type onUserInteractParams = {
     targetedUrl: string | null;
 };
 export type BlenderProps = {
+    device: string
+    appName: string
     bannerType: 'inline' | 'fullscreen';
     campaignId: string;
     isBannerShown: boolean;
